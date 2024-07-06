@@ -1,0 +1,91 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 65px;
+}
+.bar{
+    display: none;
+    display: block;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color: yellow;   
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header ul li:hover{
+    color: rgb(253,57,0);
+}
+.nav ul li{
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    list-style-type: none
+    color:blck;    
+}
+.bg-text {
+  color: white;
+  font-size: 60px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+body{
+    background-color: lightblue;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 4000px 7000px;
+	margin :25px 25px;
+    color: white;
+}
+fieldset
+{
+    padding: 50px;
+    background-image: url("im4.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 2000px;  
+}
+img
+{
+	border-image-width: 10px;
+	border-radius: 10px; /* Add rounded corners */
+    margin: 20px; 
+}
+h1
+{
+	font-size: 14;
+	color: white;
+}
+.r
+{
+	float: left;
+	padding: 5px;
+}
+h3
+{
+    color: black;
+}
+p  h4
+{
+	color: black;
+}
+footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+}
